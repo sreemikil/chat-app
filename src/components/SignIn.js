@@ -10,7 +10,7 @@ function SignIn() {
     }
     return (
         <div className="signin">
-            <Button style={{ padding: '30px', fontSize: '20px', borderRadius: '0', fontWeight: '600' }} onClick={signInWithGoogle}>Sign In With Google</Button>
+            <Button style={{ height: '24px' ,padding: '30px',fontSize: '16px', borderRadius: '50px', fontWeight: '600' }} onClick={signInWithGoogle}>Sign In With Google</Button>
         </div>
     )
 }

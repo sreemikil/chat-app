@@ -49,8 +49,8 @@ body {
 }
 
 .msger-header-title {
-  font-weight: 800;
-  font-size: xx-large;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .msger-chat {
@@ -101,16 +101,26 @@ body {
   margin-right: 10px;
   font-weight: bold;
 }
+
+.header-name {
+  margin-left: 10px;
+  font-weight: bold;
+  margin-bottom: 10px;
+
+}
+
 .msg-info-time {
   font-size: 0.85em;
 }
 
 .left-msg .msg-bubble {
   border-bottom-left-radius: 0;
+  padding-right: 20px;
 }
 
 .right-msg {
   flex-direction: row-reverse;
+  padding-right: 20px;
 }
 .right-msg .msg-bubble {
   background: var(--right-msg-bg);
@@ -163,9 +173,21 @@ body {
 }
 
 .signin {
+  background-image: url('sbg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   font-family: Helvetica, sans-serif;
+}
+
+.signin button {
+  background-color: #1b2f49;
+  color: #fff;
+}
+.signin button:hover {
+  background-color: #ffffff;
+  color: #1b2f49;
 }

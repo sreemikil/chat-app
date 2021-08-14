@@ -1,7 +1,9 @@
+import { Slider } from '@material-ui/core'
 import React, { useState, useEffect, useRef } from 'react'
 import { db, auth } from '../firebase'
 import SendMessage from './SendMessage'
 import SignOut from './SignOut'
+
 
 
 function Chat() {
@@ -15,11 +17,14 @@ function Chat() {
     return (
         <>
             <header class="msger-header">
-                <div class="msger-header-title">
-                    Chat App 🚀 
+                <div class="msger-header-title header-name">
+                Chat App 🚀 
                 </div>
                 <div class="msger-header-options">
                     <SignOut />
+
+                    <Slider />
+
                 </div>
             </header>
             <br />
