@@ -116,6 +116,12 @@ body {
   font-size: 0.85em;
 }
 
+
+.left-msg {
+  padding-left: 20px;
+}
+
+
 .left-msg .msg-bubble {
   border-bottom-left-radius: 0;
   padding-right: 20px;
