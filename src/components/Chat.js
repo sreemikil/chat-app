@@ -1,9 +1,9 @@
 import { Slide, Slider } from '@material-ui/core'
+import Uploady from '@rpldy/uploady'
 import React, { useState, useEffect, useRef } from 'react'
 import { db, auth } from '../firebase'
 import SendMessage from './SendMessage'
 import SignOut from './SignOut'
-
 
 
 function Chat() {
