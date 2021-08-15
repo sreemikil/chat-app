@@ -17,7 +17,7 @@ function Chat() {
     return (
         <>
             <header class="msger-header">
-                <div class="msger-header-title header-name">
+                <div class="msger-header-title header-name" >
                 Chat App 🚀 
                 </div>
                 <div class="msger-header-options">
